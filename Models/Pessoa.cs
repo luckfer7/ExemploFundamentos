@@ -18,6 +18,4 @@ namespace ExemploFundamentos.Models
             Console.WriteLine($"Hi, everyone. My name is {Name} and I am {Age} years old. And I am {Height}");
         }
     }
-
-        
 }

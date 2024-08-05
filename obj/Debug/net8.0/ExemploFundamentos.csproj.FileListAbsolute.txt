@@ -12,3 +12,4 @@ C:\Users\lucas\Desktop\ExemploFundamentos\obj\Debug\net8.0\refint\ExemploFundame
 C:\Users\lucas\Desktop\ExemploFundamentos\obj\Debug\net8.0\ExemploFundamentos.pdb
 C:\Users\lucas\Desktop\ExemploFundamentos\obj\Debug\net8.0\ExemploFundamentos.genruntimeconfig.cache
 C:\Users\lucas\Desktop\ExemploFundamentos\obj\Debug\net8.0\ref\ExemploFundamentos.dll
+C:\Users\lucas\Desktop\ExemploFundamentos\obj\Debug\net8.0\ExemploFundamentos.sourcelink.json

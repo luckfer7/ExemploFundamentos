@@ -15,9 +15,34 @@
 // pessoaDois.ToShow();
 
 
-DateTime dataAtual = DateTime.Now;
-Console.WriteLine(dataAtual);
+// DateTime dataAtual = DateTime.Now;
+// Console.WriteLine(dataAtual);
 
-DateTime dataSomada = DateTime.Now.AddDays(15);
-Console.WriteLine(dataSomada);
-Console.WriteLine(dataAtual.ToString("dd/MM/yyyy"));
+// DateTime dataSomada = DateTime.Now.AddDays(15);
+// Console.WriteLine(dataSomada);
+// Console.WriteLine(dataAtual.ToString("dd/MM/yyyy"));
+
+//TIPOS DE OPERADORES NO C#
+
+int a = 10;
+int b = 20;
+
+int c = a + b;
+//c = c + 20;
+c += 20;
+
+
+int d = Convert.ToInt32(null);
+// int e = int.Parse();
+
+// Console.WriteLine(e);
+// Console.WriteLine(d);
+
+int inteiro = 5;
+string f = inteiro.ToString();
+
+// Console.WriteLine(f);
+
+double g = 5 / (6 + 3);
+Console.WriteLine(g);
+
