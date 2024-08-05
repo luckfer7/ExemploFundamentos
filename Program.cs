@@ -44,5 +44,65 @@ string f = inteiro.ToString();
 // Console.WriteLine(f);
 
 double g = 5 / (6 + 3);
-Console.WriteLine(g);
+// Console.WriteLine(g);
 
+
+// int quantidadeEmEstoque = 10;
+// int quantidadeCompra = 4;
+// bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+// int restante = quantidadeEmEstoque - quantidadeCompra;
+
+// Console.WriteLine($"quantidade em estoque: {quantidadeEmEstoque}");
+// Console.WriteLine($"quantidade sendo comprada: {quantidadeCompra}");
+// Console.WriteLine($"Épossível realizar a venda? {possivelVenda}");
+
+// if (quantidadeCompra == 0)
+// {
+//     Console.WriteLine("Venda inválida");
+// }
+// else if (possivelVenda)
+// {
+//     Console.WriteLine("Tem estoque");
+// }
+// else
+// {
+//     Console.WriteLine("Não tem estoque");
+// }
+
+// Console.WriteLine($"Quantidade restante em estoque: {restante}");
+
+// Console.WriteLine("Digite uma letra");
+// string letra = Console.ReadLine();
+
+// if (letra == "a" ||
+//     letra == "e" ||
+//     letra == "i" ||
+//     letra == "o" ||
+//     letra == "u")
+// {
+//     Console.WriteLine("Vogal");
+// }
+// else
+// {
+//     Console.WriteLine("Não é uma vogal");
+// }
+
+//ou podemos fazer um switch case
+
+Console.WriteLine("Digite uma letra");
+string letra = Console.ReadLine();
+
+switch (letra)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine("Vogal");
+        break;
+
+    default:
+        Console.WriteLine("não é uma vogal");
+        break;
+}
