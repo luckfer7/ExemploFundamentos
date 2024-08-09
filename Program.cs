@@ -24,26 +24,26 @@
 
 //TIPOS DE OPERADORES NO C#
 
-int a = 10;
-int b = 20;
+// int a = 10;
+// int b = 20;
 
-int c = a + b;
+// int c = a + b;
 //c = c + 20;
-c += 20;
+// c += 20;
 
 
-int d = Convert.ToInt32(null);
+// int d = Convert.ToInt32(null);
 // int e = int.Parse();
 
 // Console.WriteLine(e);
 // Console.WriteLine(d);
 
-int inteiro = 5;
-string f = inteiro.ToString();
+// int inteiro = 5;
+// string f = inteiro.ToString();
 
 // Console.WriteLine(f);
 
-double g = 5 / (6 + 3);
+// double g = 5 / (6 + 3);
 // Console.WriteLine(g);
 
 
@@ -89,20 +89,99 @@ double g = 5 / (6 + 3);
 
 //ou podemos fazer um switch case
 
-Console.WriteLine("Digite uma letra");
-string letra = Console.ReadLine();
+// Console.WriteLine("Digite uma letra");
+// string letra = Console.ReadLine();
 
-switch (letra)
+// switch (letra)
+// {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         Console.WriteLine("Vogal");
+//         break;
+
+//     default:
+//         Console.WriteLine("não é uma vogal");
+//         break;
+// }
+
+        //OPERADORES OR, AND E NOT.
+
+// bool ehMaiorDeIdade = true;
+// bool temAutorizacaoLegal = false;
+
+// if (ehMaiorDeIdade || temAutorizacaoLegal)
+// {
+//     Console.WriteLine("Pode entrar");
+// }
+// else
+// {
+//     Console.WriteLine("Não pode entrar");
+// }
+
+
+// int idadePermitida = 18;
+// int clienteIdade = int.Parse(Console.ReadLine());
+
+// if (clienteIdade >= idadePermitida)
+//  {
+//     Console.WriteLine("Aprovado");
+//  }
+//  else 
+//  {
+//     Console.WriteLine("Reprovado");
+//  }
+
+// bool possuiPresencaMinima = true;
+// double media = 5.5;
+
+// if (possuiPresencaMinima && media >= 7)
+// {
+//     Console.WriteLine("Aprovado");
+// }
+// else 
+// {
+//     Console.WriteLine("Reprovado");
+// }
+
+// bool temCaderno = true;
+// bool temCaneta = true;
+
+// if (temCaderno && !temCaneta)
+// {
+//     Console.WriteLine("Faça anotações");
+// } 
+// else
+// {
+//     Console.WriteLine("Não faça anotações");
+// }
+
+// bool temCafe = true;
+
+// if (!temCafe)
+// {
+//     Console.WriteLine("Comprar café");
+// }
+// else 
+// {
+//     Console.WriteLine("Não comprar café");
+// }
+
+
+bool naoEstuda = true;
+bool naoTrabalha = true;
+
+if (!naoEstuda && !naoTrabalha)
 {
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-        Console.WriteLine("Vogal");
-        break;
-
-    default:
-        Console.WriteLine("não é uma vogal");
-        break;
+    Console.WriteLine("Vagabundo");
+}
+else if (naoEstuda && !naoTrabalha)
+{
+    Console.WriteLine("Trabalha, mas não estuda");
+}
+else {
+    Console.WriteLine("Morreu por dentro");
+    //pq estuda e trabalha
 }
