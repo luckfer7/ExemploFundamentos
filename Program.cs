@@ -170,18 +170,38 @@
 // }
 
 
-bool naoEstuda = true;
-bool naoTrabalha = true;
+// bool naoEstuda = true;
+// bool naoTrabalha = true;
 
-if (!naoEstuda && !naoTrabalha)
-{
-    Console.WriteLine("Vagabundo");
-}
-else if (naoEstuda && !naoTrabalha)
-{
-    Console.WriteLine("Trabalha, mas não estuda");
-}
-else {
-    Console.WriteLine("Morreu por dentro");
-    //pq estuda e trabalha
-}
+// if (!naoEstuda && !naoTrabalha)
+// {
+//     Console.WriteLine("Vagabundo");
+// }
+// else if (naoEstuda && !naoTrabalha)
+// {
+//     Console.WriteLine("Trabalha, mas não estuda");
+// }
+// else {
+//     Console.WriteLine("Morreu por dentro");
+//     //pq estuda e trabalha
+// }
+
+
+//OPERADORES ARITMÉTICOS
+
+Calculadora calc = new Calculadora();
+
+// calc.Somar(5, 7);
+// calc.Subtrair(12, 63);
+// calc.Multiplicar(32, 19);
+// calc.Dividir(9, 3);
+// calc.Potencia(10, 5);
+// calc.Seno(56);
+// calc.Coseno(56);
+// calc.Tangente(56);
+calc.RaizQuadrada(49);
+
+// int coposAhcomprar = int.Parse(Console.ReadLine());
+// int coposQueTenho = int.Parse(Console.ReadLine());
+
+// Console.WriteLine($"Eu terei {coposAhcomprar + coposQueTenho} copos");
