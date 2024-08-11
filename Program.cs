@@ -254,15 +254,53 @@
 
 // Console.WriteLine($"Total da soma dos números dgitados é: {soma}");
 
-int pipa = 0;
-int somar = 0;
+// int pipa = 0;
+// int somar = 0;
 
-do
+// do
+// {
+//         Console.WriteLine("Digite a quantidade de pipas que deseja comprar(0 para parar)");
+//         pipa = Convert.ToInt32(Console.ReadLine());
+
+//         somar += pipa;
+// } while (pipa != 0);
+
+// Console.WriteLine($"O total de pipas que vc comprou é: {somar}");
+
+
+string opcao;
+
+while (true)
 {
-        Console.WriteLine("Digite a quantidade de pipas que deseja comprar(0 para parar)");
-        pipa = Convert.ToInt32(Console.ReadLine());
+        Console.Clear();
+        Console.WriteLine("Digite uma opção: ");
+        Console.WriteLine("1 - Cadastrar cliente");
+        Console.WriteLine("2 - buscar clientes");
+        Console.WriteLine("3 - Apagar cliente");
+        Console.WriteLine("4 - Encerrar");
 
-        somar += pipa;
-} while (pipa != 0);
+        opcao = Console.ReadLine();
 
-Console.WriteLine($"O total de pipas que vc comprou é: {somar}");
+        switch(opcao)
+        {
+                case "1":
+                        Console.WriteLine("Cadastro do cliente: ");
+                        break;
+                case "2":
+                        Console.WriteLine("Busca de clientes: ");
+                        break;
+                case "3":
+                Console.WriteLine("Apagar cliente");
+                break;
+
+                case "4":
+                        Console.WriteLine("Encerrar");
+                        Environment.Exit(0);
+                        break;
+
+                default: 
+                        Console.WriteLine("Opção inválida");
+                        break;
+
+        }
+}
