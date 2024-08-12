@@ -304,3 +304,48 @@
 
 //         }
 // }
+
+
+// int[] arrayInteiros = new int[3];
+// arrayInteiros[0] = 72;
+// arrayInteiros[1] = 64;
+// arrayInteiros[2] = 50;
+
+//DUAS FORMAS DE ALTERAR O TAMANHO/CAPACIDADE DOS ARRAYS
+
+// Array.Resize(ref arrayInteiros, arrayInteiros.Length * 3);
+
+
+//int [] arrayInteirosTriplicado = new int[arrayInteiros.Length * 3];
+//Array.Copy(arrayInteiros, arrayInteirosTriplicado, arrayInteiros.Length);
+
+// for (int contador = 0; contador < arrayInteiros.Length; contador++)
+// {
+//         Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
+//         // Console.WriteLine($"Seu array é: {arrayInteiros}");
+// }
+
+// foreach(int valor in arrayInteiros)
+// {
+//         Console.WriteLine(valor);                                                                              
+// }
+
+
+//LISTAS
+
+List<string> listaString = new List<string>();
+
+listaString.Add("RJ");
+listaString.Add("SC");
+listaString.Add("RS");
+listaString.Add("PR");
+
+for(int contador = 0; contador < listaString.Count; contador++)
+{
+        Console.WriteLine($"Posição Nº {contador} - {listaString[contador]}");
+}
+
+foreach(string item in listaString)
+{
+        Console.WriteLine(item);
+}
